@@ -8,7 +8,7 @@ let downloadBtn = document.getElementById('download-btn');
 let uploadFile = document.getElementById('upload-file');
 let revertBtn = document.getElementById('revert-btn');
 
-// ADD filters & EFFECTS
+// ADD filters & EFFECT
 document.addEventListener('click', (e)=>{
 	if (e.target.classList.contains('filter-btn')) {
 		if (e.target.classList.contains('brightness-add')) {
