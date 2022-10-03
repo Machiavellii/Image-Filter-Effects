@@ -75,6 +75,22 @@ document.addEventListener('click', (e)=>{
 			Caman('#canvas', img, function  () {
 				this.herMajesty().render();
 			})
+		}else if (e.target.classList.contains('greyscale-add')) {
+			Caman('#canvas', img, function  () {
+				this.greyscale().render();
+			})
+		}else if (e.target.classList.contains('invert-add')) {
+			Caman('#canvas', img, function  () {
+				this.invert().render();
+			})
+		}else if (e.target.classList.contains('love-add')) {
+			Caman('#canvas', img, function  () {
+				this.love().render();
+			})
+		}else if (e.target.classList.contains('sunrise-add')) {
+			Caman('#canvas', img, function  () {
+				this.sunrise().render();
+			})
 		}
 	};
 }) 
