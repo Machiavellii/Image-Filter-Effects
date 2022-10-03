@@ -4,9 +4,9 @@ let ctx = canvas.getContext('2d');
 let img = new Image();
 let fileName = '';
 
-let downloadBtn = document.getElementById('download-btn')
-let uploadFile = document.getElementById('upload-file')
-let revertBtn = document.getElementById('revert-btn')
+let downloadBtn = document.getElementById('download-btn');
+let uploadFile = document.getElementById('upload-file');
+let revertBtn = document.getElementById('revert-btn');
 
 // ADD filters & EFFECT
 document.addEventListener('click', (e)=>{
